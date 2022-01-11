@@ -1,0 +1,150 @@
+#news{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+
+    .news_wrap{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .news{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .caption_wrap{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img{
+                    width: 110px;
+                    margin-bottom: 18px;
+                }
+                .caption{
+                    writing-mode: vertical-rl;
+
+                    p{
+                        color: #000000;
+                        font-family: ten-mincho, serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        margin: 0px;
+                    }
+                    .caption_en{
+                        font-size: 20pt;
+                    }
+                    .caption_jp{
+                        font-size: 36pt;
+                    }
+                }
+            }
+            .news_list_wrap{
+                padding-left: 150px;
+
+                .news_list{
+
+                    ul{
+                        padding: 0;
+                        margin: 0;
+                        list-style: none;
+
+                        li{
+                            display: flex;
+                            width: 40vw;
+                            justify-content: flex-start;
+                            border-bottom: 1px solid #6A846F;
+                            padding-top: 13px;
+                            padding-bottom: 13px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+
+                            .day{
+                                color: #000000;
+                                font-family: ten-mincho, serif;
+                                font-weight: 400;
+                                font-style: normal;
+                                font-size: 14px;
+                                margin: 0px;
+                            }
+                            .news_text{
+                                color: #000000;
+                                font-family: ten-mincho, serif;
+                                font-weight: 400;
+                                font-style: normal;
+                                font-size: 14px;
+                                margin: 0px;
+                                padding-left: 40px;
+                            }
+                        }
+                        li:first-child{
+                            border-top: 1px solid #6A846F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+
+    #news{
+        margin-top: 10px;
+
+        .news_wrap{
+            width: 88vw;
+
+            .news{
+                flex-direction: column;
+                align-items: flex-end;
+
+                .caption_wrap{
+                    padding-right: 30px;
+
+                    img{
+                        width: 62px !important;
+                    }
+                    .caption{
+
+                        .caption_en{
+                            font-size: 12pt !important;
+                        }
+                        .caption_jp{
+                            font-size: 21pt !important;
+                        }   
+                    }
+
+                }
+                .news_list_wrap{
+                    padding: 0 !important;
+
+                    .news_list{
+
+                        ul{
+
+                            li{
+                                width: 88vw !important;
+                                padding-left: 0 !important;
+                                padding-right: 0 !important;
+
+                                .day{
+                                    font-size: 8px !important;
+                                }
+                                .news_text{
+                                    font-size: 8px;
+                                    padding-left: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

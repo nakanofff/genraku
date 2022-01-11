@@ -1,0 +1,179 @@
+#access{
+    width: 100vw;
+    height: 100vh;
+
+    .access_wrap{
+
+        .access{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .map{
+                width: 40vw;
+                height: 80vh;
+                padding: 100px;
+
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .access_right{
+                width: 40vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .access_text_wrap{
+                    margin-bottom: 40px;
+
+                    .caption_wrap{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img{
+                            width: 110px;
+                            margin-bottom: 18px;
+                        }
+                        .caption{
+                            writing-mode: vertical-rl;
+
+                            p{
+                                color: #000000;
+                                font-family: ten-mincho, serif;
+                                font-weight: 400;
+                                font-style: normal;
+                                margin: 0px;
+                            }
+                            .caption_en{
+                                font-size: 20pt;
+                            }
+                            .caption_jp{
+                                font-size: 36pt;
+                            }
+                        }
+                    }
+                }
+                .access_text_box{
+                    width: 20%;
+
+                    ul{
+                        padding: 0;
+                        margin: 0;
+                        list-style: none;
+                        writing-mode: vertical-rl;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        li{
+                            color: #000000;
+                            font-family: ten-mincho, serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 14px;
+                            margin: 0px;
+                        }
+                    }
+                }
+                .shop_link_box{
+                    margin-top: 50px;
+
+                    a{
+                        width: 380px;
+                        height: 70px;
+                        border: 1px solid #000000;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-decoration: none;
+                        transition: all 0.3s ease-in-out;
+
+                        p{
+                            color: #000000;
+                            font-family: ten-mincho, serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 20px;
+                            margin: 0px;
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+                    a:hover{
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+    #access{
+
+        .access_wrap{
+
+            .access{
+                flex-direction: column-reverse;
+
+                .map{
+                    width: 88vw;
+                    height: 50vh;
+                    padding: 20px;
+                    padding-top: 0 !important;
+                }
+                .access_right{
+                    width: 80vw;
+                    height: 50vh;
+                    flex-direction: row-reverse !important;
+                    justify-content: space-around;
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    .access_text_wrap{
+
+                        img{
+                            width: 62px !important;
+                        }
+                        .caption{
+
+                            .caption_en{
+                                font-size: 12pt !important;
+                            }
+                            .caption_jp{
+                                font-size: 21pt !important;
+                            }
+                        }
+                    }
+                }
+                .access_text_box{
+                    width: 40% !important;
+
+                    ul{
+                        margin-top: 50px !important;
+
+                        li{
+                            font-size: 8pt !important;
+                        }
+                    }
+                }
+                .shop_link_box{
+                    position: absolute;
+                    bottom: 0;
+                    margin-top: 10px !important ;
+
+                    a{
+                        width: 88vw !important;
+                        height: 40px !important;
+                        
+                        p{
+                            font-size: 8pt !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,501 @@
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+<title>現洛屋</title>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+    (function(d) {
+      var config = {
+        kitId: 'pxj3cyw',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+<script src="fade.js"></script>
+<script src="move.js"></script>
+<script src="scroll.js"></script>
+<link rel="icon" href="./icon/head_icon.png">
+<link rel="stylesheet" href="roading.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="menus.css">
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="access.css">
+<link rel="stylesheet" href="top.css">
+</head>
+<body>
+    <header>
+        <div class="menu_pc">
+            <div class="menu_pc_wrap">
+                <div class="menu_pc">
+                    <div class="header_logo_pc">
+                        <img src="./icon/genraku_logo_white.png" alt="現洛屋ロゴ">
+                    </div>
+                    <nav class="header_list_pc">
+                        <ul id="page-link">
+                            <li>
+                                <div class="list_pc_icon">
+                                    <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                                </div>
+                                <a href="#news">
+                                    <p class="list_pc_text_en">News</p>
+                                    <p class="list_pc_text_jp">お知らせ</p>
+                                </a>
+                            </li>
+                            <div class="list_pc_line">
+                            </div>
+
+                            <li>
+                                <div class="list_pc_icon">
+                                    <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                                </div>
+                                <a href="#access">
+                                    <p class="list_pc_text_en">Access</p>
+                                    <p class="list_pc_text_jp">店舗情報</p>
+                                </a>
+                            </li>
+                            <div class="list_pc_line">
+                            </div>
+
+                            <li>
+                                <div class="list_pc_icon">
+                                    <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                                </div>
+                                <a href="#menu">
+                                    <p class="list_pc_text_en">Menus</p>
+                                    <p class="list_pc_text_jp">商品紹介</p>
+                                </a>
+                            </li>
+                            <div class="list_pc_line">
+                            </div>
+                            
+                            <li>
+                                <div class="list_pc_icon">
+                                    <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                                </div>
+                                <a href="#about">
+                                    <p class="list_pc_text_en">About</p>
+                                    <p class="list_pc_text_jp">私たちについて</p>
+                                </a>
+                            </li>
+                            <div class="list_pc_line">
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="snsmenu_pc_wrap">
+                <div class="snsmenu_pc">
+                    <ul>
+                        <li>
+                            <img src="./icon/genraku_insta_icon.png" alt="インスタグラムアイコン">
+                            <a href="index.html">Instagram</a>
+                        </li>
+                        <li>
+                            <div class="snsmenu_line"></div>
+                        </li>
+                        <li>
+                            <img src="./icon/genraku_facebook_icon.png" alt="インスタグラムアイコン">
+                            <a href="index.html">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="index.html" class="online_button_pc_wrap">
+                <div class="online_button_pc">
+                    <p>オンラインショップへ</p>
+                    <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                </div>
+            </a>
+        </div>
+        <div class="menu_sm">
+            <div class="menu_sm_wrap">
+                <div class="menu_button">
+                    <div class="menu_button_line menu_button_line1"></div>
+                    <div class="menu_button_line menu_button_line2"></div>
+                    <div class="menu_button_line menu_button_line3"></div>
+                </div>
+                <div class="menu_sm_logo">
+                    <img src="./icon/genraku_icon_black.png" alt="現洛屋ロゴ">
+                </div>
+            </div>
+        </div>
+        <div class="menu_sm_slide">
+            <div class="menu_sm_slide_wrap">
+                <nav class="menu_nav_sm">
+                    <ul>
+                        <li>
+                            <div class="list_sm_icon">
+                                <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                            </div>
+                            <a href="news">
+                                <p class="list_sm_text_en">News</p>
+                                <p class="list_sm_text_jp">お知らせ</p>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="list_sm_icon">
+                                <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                            </div>
+                            <a href="news">
+                                <p class="list_sm_text_en">Access</p>
+                                <p class="list_sm_text_jp">店舗情報</p>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="list_sm_icon">
+                                <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                            </div>
+                            <a href="news">
+                                <p class="list_sm_text_en">Menus</p>
+                                <p class="list_sm_text_jp">商品紹介</p>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="list_sm_icon">
+                                <img src="./icon/genraku_icon_white.png" alt="現洛屋アイコン">
+                            </div>
+                            <a href="news">
+                                <p class="list_sm_text_en">About</p>
+                                <p class="list_sm_text_jp">私たちについて</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="index.html" class="menu_sm_button">
+                    <p>オンラインショップへ</p>
+                </a>
+
+                <div class="menu_sm_sns_wrap">
+                    <a href="index.html" class="menu_sm_sns">
+                        <img src="./icon/genraku_insta_icon.png" alt="インスタグラムアイコン">
+                        <p>Instagram</p>
+                    </a>
+                    <div class="menu_sm_sns_line"></div>
+                    <a href="index.html" class="menu_sm_sns">
+                        <img src="./icon/genraku_facebook_icon.png" alt="フェイスブックアイコン">
+                        <p>Facebook</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    
+    
+    <section id="top">
+        <div class="top_img_wrap">
+            <div class="top_img">
+                <img src="./img/top_background.jpg" alt="現洛屋店舗">
+            </div>
+        </div>
+        <div class="top_text_wrap">
+            <div class="top_text">
+                <h1>結ぶお菓子のお店</h1>
+            </div>
+        </div>
+        <div class="underline_wrap">
+            <div class="underline">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about_img">
+            <img src="./img/about.jpg" alt="現洛屋店舗">
+        </div>
+        <div class="about_wrap fadeUpTrigger">
+            <div class="about">
+                <h2 class="caption_wrap">
+                    <img class="caption_img" src="./icon/genraku_icon_green.png" alt="現洛屋アイコン">
+                    <div class="caption">
+                        <p class="caption_en">About Us</p>
+                        <p class="caption_jp">私たちについて</p>
+                    </div>
+                </h2>
+                <div class="about_text_wrap">
+                    <div class="about_text">
+                        <p>
+                            私たちは宇治の名産である抹茶を使ったお菓子を販売しています。
+                            ただ和菓子として作るのではなく、みなさんがよく口にする現代のお菓子
+                            と宇治抹茶を掛け合わせることで日常的に抹茶を好きになってるれる、そんな
+                            抹茶とお客様を繋ぐお店を目指しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="menu_wrap">
+            <div class="menu">
+                <h2 class="caption_wrap">
+                    <img class="caption_img" src="./icon/genraku_icon_green.png" alt="現洛屋アイコン">
+                    <div class="caption">
+                        <p class="caption_en">Menus</p>
+                        <p class="caption_jp">メニュー</p>
+                    </div>
+                </h2>
+                
+                <div class="contents_wrap">
+                    <ul class="contents">
+
+                        <li class="content fadeInTrigger">
+                            <img src="./img/kukki-.jpg" alt="宇治抹茶クッキー">
+                            <div class="content_text_wrap">
+                                <div class="content_title">
+                                    <h3 class="content_title_jp">宇治抹茶クッキー</h3>
+                                    <h4 class="content_title_en">UJI MACCHA CKUKKI</h4>
+                                </div>
+                                <div class="content_text">
+                                    <p>宇治抹茶を使ったクッキーです。<br>
+                                        食べ出したら止まらない素朴なサクサク食感のクッキーです。</p>
+                                </div>
+                                <div class="content_price content_price1">
+                                    <p class="price">520円<span class="price_unit">（税抜き）</span></p>
+                                    <p class="cal">400 kcal（100gあたり）</p>
+                                </div>
+                                <div class="content_info_wrap content_info_wrap1">
+                                    <div class="content_info">
+                                        <p class="content_info_title">内容量</p>
+                                        <p class="content_info_text">16 個入</p>
+                                    </div>
+                                    <div class="content_info">
+                                        <p class="content_info_title">賞味期限</p>
+                                        <p class="content_info_text">製造日から20日以内</p>
+                                    </div><div class="content_info">
+                                        <p class="content_info_title">特定原材料</p>
+                                        <p class="content_info_text">乳・小麦・卵・大豆</p>
+                                    </div>
+                                </div>
+                                <div class="content_button content_button1">
+                                    <p class="button_text">詳しく見る</p>
+                                    <div class="button_underline"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="content fadeInTrigger">
+                            <img src="./img/rankdosya.jpg" alt="宇治抹茶クッキー">
+                            <div class="content_text_wrap">
+                                <div class="content_title">
+                                    <h3 class="content_title_jp">宇治抹茶クッキー</h3>
+                                    <h4 class="content_title_en">UJI MACCHA CKUKKI</h4>
+                                </div>
+                                <div class="content_text">
+                                    <p>宇治抹茶を使ったクッキーです。<br>
+                                        食べ出したら止まらない素朴なサクサク食感のクッキーです。</p>
+                                </div>
+                                <div class="content_price content_price2">
+                                    <p class="price">520円<span class="price_unit">（税抜き）</span></p>
+                                    <p class="cal">400 kcal（100gあたり）</p>
+                                </div>
+                                <div class="content_info_wrap content_info_wrap2">
+                                    <div class="content_info">
+                                        <p class="content_info_title">内容量</p>
+                                        <p class="content_info_text">16 個入</p>
+                                    </div>
+                                    <div class="content_info">
+                                        <p class="content_info_title">賞味期限</p>
+                                        <p class="content_info_text">製造日から20日以内</p>
+                                    </div><div class="content_info">
+                                        <p class="content_info_title">特定原材料</p>
+                                        <p class="content_info_text">乳・小麦・卵・大豆</p>
+                                    </div>
+                                </div>
+                                <div class="content_button content_button2">
+                                    <p class="button_text button_text1">詳しく見る</p>
+                                    <p class="button_text button_text2">閉じる</p>
+                                    <div class="button_underline"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="content fadeInTrigger">
+                            <img src="./img/IMG_2797.jpg" alt="宇治抹茶クッキー">
+                            <div class="content_text_wrap">
+                                <div class="content_title">
+                                    <h3 class="content_title_jp">宇治抹茶クッキー</h3>
+                                    <h4 class="content_title_en">UJI MACCHA CKUKKI</h4>
+                                </div>
+                                <div class="content_text">
+                                    <p>宇治抹茶を使ったクッキーです。<br>
+                                        食べ出したら止まらない素朴なサクサク食感のクッキーです。</p>
+                                </div>
+                                <div class="content_price content_price3">
+                                    <p class="price">520円<span class="price_unit">（税抜き）</span></p>
+                                    <p class="cal">400 kcal（100gあたり）</p>
+                                </div>
+                                <div class="content_info_wrap content_info_wrap3">
+                                    <div class="content_info">
+                                        <p class="content_info_title">内容量</p>
+                                        <p class="content_info_text">16 個入</p>
+                                    </div>
+                                    <div class="content_info">
+                                        <p class="content_info_title">賞味期限</p>
+                                        <p class="content_info_text">製造日から20日以内</p>
+                                    </div><div class="content_info">
+                                        <p class="content_info_title">特定原材料</p>
+                                        <p class="content_info_text">乳・小麦・卵・大豆</p>
+                                    </div>
+                                </div>
+                                <div class="content_button content_button3">
+                                    <p class="button_text">詳しく見る</p>
+                                    <div class="button_underline"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="access">
+        <div class="access_wrap">
+            <div class="access">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d818.1578309534576!2d135.8063676292816!3d34.89060309877417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001110c85522b37%3A0xf16bef96f45b4426!2z44CSNjExLTAwMjEg5Lqs6YO95bqc5a6H5rK75biC5a6H5rK76JOu6I-v!5e0!3m2!1sja!2sjp!4v1640668527444!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="access_right">
+                    <div class="access_text_wrap">
+                        <h2 class="caption_wrap">
+                            <img class="caption_img" src="./icon/genraku_icon_green.png" alt="現洛屋アイコン">
+                            <div class="caption">
+                                <p class="caption_en">Access</p>
+                                <p class="caption_jp">店舗情報</p>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="access_text_box">
+                        <ul class="access_text"> 
+                            <li>住所　京都府宇治市蓮華二一-一八</li>
+                            <li>お電話　七七〇-二五六-二〇八</li>
+                            <li>営業時間　午前一〇時〜午後九時</li>
+                            <li>定休日　月・火曜日</li>
+                        </ul>
+                    </div>
+                    <div class="shop_link_box">
+                        <a href="index.html" class="shop_link">
+                            <p>ネットショップへ</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="news_wrap">
+            <div class="news">
+                <h2 class="caption_wrap">
+                    <img class="caption_img" src="./icon/genraku_icon_green.png" alt="現洛屋アイコン">
+                    <div class="caption">
+                        <p class="caption_en">News</p>
+                        <p class="caption_jp">お知らせ</p>
+                    </div>
+                </h2>
+                <div class="news_list_wrap">
+                    <div class="news_list">
+                        <ul>
+                            <li>
+                                <div class="day">
+                                    2021年 12月 20日
+                                </div>
+                                <div class="news_text">
+                                    12月28日〜1月4日まで営業時間を午後８時までに短縮して営業いたします。
+                                </div>
+                            </li>
+                            <li>
+                                <div class="day">
+                                    2021年 12月 8日
+                                </div>
+                                <div class="news_text">
+                                     宇治市公式YouTubeチャンネルにて紹介していただきました。
+                                </div>
+                            </li>
+                            <li>
+                                <div class="day">
+                                    2021年 11月 28日
+                                </div>
+                                <div class="news_text">
+                                    材料費高騰による一部商品の値上げを行います。
+                                </div>
+                            </li>
+                            <li>
+                                <div class="day">
+                                    2021年 11月 20日
+                                </div>
+                                <div class="news_text">
+                                    オンラインショップでの販売をスタートしました。
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roading">
+        <div class="roading_wrap">
+            <p>結ぶお菓子のお店</p>
+            <div class="roading_line">
+                <img src="./img/roading_line.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer_wrap">
+            <nav class="footer_nav"> 
+                <ul>
+                    <li><a href="index.html">私たちについて</a></li>
+                    <li><a href="index.html">商品紹介</a></li>
+                    <li><a href="index.html">店舗情報</a></li>
+                    <li><a href="index.html">お知らせ</a></li>
+                </ul>
+            </nav>
+            <div class="footer_logo_box">
+                <div class="footer_logo">
+                    <img src="./icon/genraku_logo_white2.png" alt="現洛屋ロゴ">
+                </div>
+            </div>
+            <div class="footer_right">
+                <div class="footer_sns_box">
+                    <a href="index,html" class="fooer_sns">
+                        <img src="./icon/genraku_insta_icon.png" alt="インスタグラムアイコン">
+                        <p>Instagram</p>
+                    </a>
+                    <div class="footer_sns_line"></div>
+                    <a href="index.html" class="footer_sns">
+                        <img src="./icon/genraku_facebook_icon.png" alt="フェイスブックアイコン">
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="footer_top_box">
+                    <div class="footer_top">
+                        <img src="./icon/genraku_icon_white.png" alt="トップへ戻る">
+                        <p id="page-top"><a href="#">トップへ戻る</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <small>©2022-Genrakuya.inc</small>
+        </div>
+    </footer>
+</body>
+</html>

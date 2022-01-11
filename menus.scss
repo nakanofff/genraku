@@ -1,0 +1,253 @@
+#menu{
+    width: 100vw;
+    height: 100vh;
+
+    .menu_wrap{
+        padding: 50px;
+
+        .menu{
+            display: flex;
+            justify-content: space-around;
+
+            .caption_wrap{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img{
+                    width: 110px;
+                    margin-bottom: 18px;
+                }
+                .caption{
+                    writing-mode: vertical-rl;
+
+                    p{
+                        color: #000000;
+                        font-family: ten-mincho, serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        margin: 0px;
+                    }
+                    .caption_en{
+                        font-size: 20pt;
+                    }
+                    .caption_jp{
+                        font-size: 36pt;
+                    }
+                }
+            }
+            .contents_wrap{
+                
+                
+                .contents{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    .content{
+                        position: relative;
+                        width: 25vw;
+                        height: 80vh;
+                        margin-left: 25px;
+                        transition: all 0.3s ease-in-out;
+
+                        img{
+                            width: 100%;
+                            height: 80%;
+                            object-fit: cover;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                        }
+                        .content_text_wrap{
+                            background-color: #ffffff;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            padding: 25px;
+                            transition: all 0.3s ease-in-out;
+
+                            .content_title{
+                                margin-bottom: 17px;
+
+                                h3{
+                                    color: #000000;
+                                    font-family: ten-mincho, serif;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                    font-size: 18pt;
+                                    margin: 0px;
+                                }
+                                h4{
+                                    color: #000000;
+                                    font-family: ten-mincho, serif;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                    font-size: 10pt;
+                                    margin: 0px;
+                                }
+                            }
+                            .content_text{
+                                margin-bottom: 30px;
+                                display: none;
+                                transition: all 0.3s ease-in-out;
+
+                                p{
+                                    color: #000000;
+                                    font-family: ten-mincho, serif;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                    font-size: 10pt;
+                                    margin: 0px;
+                                }
+                            }
+                            .content_price{
+                                align-items: flex-end;
+                                margin-bottom: 8px;
+                                display: none;
+                                transition: all 0.3s ease-in-out;
+
+                                p{
+                                    color: #000000;
+                                    font-family: ten-mincho, serif;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                    font-size: 12pt;
+                                    margin: 0px;
+
+                                    .price_unit{
+                                        font-size: 7pt !important;
+                                    }
+                                }
+                                .cal{
+                                    font-size: 7pt !important;
+                                }
+                            }
+                            .content_info_wrap{
+                                display: none;
+                                margin-bottom: 16px;
+                                transition: all 0.3s ease-in-out;
+
+                                .content_info{
+                                    border-left: 1px solid #000000;
+                                    padding-left: 8px;
+                                    padding-right: 20px;
+
+                                    p{
+                                        color: #000000;
+                                        font-family: ten-mincho, serif;
+                                        font-weight: 400;
+                                        font-style: normal;
+                                        margin: 0px;
+                                    }
+                                    .content_info_title{
+                                        font-size: 8pt;
+                                    }
+                                    .content_info_text{
+                                        font-size: 6pt;
+                                    }
+                                }
+                            }
+                            .contact_open1{
+                                display: flex !important;
+                            }
+                            .content_button{
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-end;
+
+                                .button_text{
+                                    color: #000000;
+                                    font-family: ten-mincho, serif;
+                                    font-weight: 400;
+                                    font-style: normal;
+                                    font-size: 6pt;
+                                    margin: 0px;
+                                }
+                                .button_text1{
+                                    display: block;
+                                }
+                                .button_text2{
+                                    display: none;
+                                }
+                                .button_underline{
+                                    width: 30%;
+                                    height: 1px;
+                                    background-color: #000000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.contact_open1{
+    display: flex !important;
+}
+.contact_open2{
+    display: block;
+}
+.contact_open3{
+    display: none;
+}
+
+@media screen and (max-width:480px){
+    #menu{
+        height: auto;
+
+        .menu_wrap{
+            padding: 20px;
+
+            .menu{
+                flex-direction: column;
+
+                .caption_wrap{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 80%;
+                    margin-bottom: 53px;
+
+                    img{
+                        width: 62px !important;
+                    }
+                    .caption{
+
+                        .caption_en{
+                            font-size: 12pt !important;
+                        }
+                        .caption_jp{
+                            font-size: 21pt !important;
+                        }   
+                    }
+
+                }
+
+                .contents_wrap{
+
+                    .contents{
+                        flex-direction: column;
+                        
+                        .content{
+                            width: 88vw !important;
+                            height: 60vh;
+                            margin-left: 0 !important;
+                            margin-bottom: 8vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

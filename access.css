@@ -1,0 +1,212 @@
+#access {
+  width: 100vw;
+  height: 100vh;
+}
+
+#access .access_wrap .access {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#access .access_wrap .access .map {
+  width: 40vw;
+  height: 80vh;
+  padding: 100px;
+}
+
+#access .access_wrap .access .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#access .access_wrap .access .access_right {
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap {
+  margin-bottom: 40px;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap .caption_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap .caption_wrap img {
+  width: 110px;
+  margin-bottom: 18px;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap .caption_wrap .caption {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap .caption_wrap .caption p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap .caption_wrap .caption .caption_en {
+  font-size: 20pt;
+}
+
+#access .access_wrap .access .access_right .access_text_wrap .caption_wrap .caption .caption_jp {
+  font-size: 36pt;
+}
+
+#access .access_wrap .access .access_right .access_text_box {
+  width: 20%;
+}
+
+#access .access_wrap .access .access_right .access_text_box ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#access .access_wrap .access .access_right .access_text_box ul li {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0px;
+}
+
+#access .access_wrap .access .access_right .shop_link_box {
+  margin-top: 50px;
+}
+
+#access .access_wrap .access .access_right .shop_link_box a {
+  width: 380px;
+  height: 70px;
+  border: 1px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#access .access_wrap .access .access_right .shop_link_box a p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#access .access_wrap .access .access_right .shop_link_box a:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 480px) {
+  #access .access_wrap .access {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #access .access_wrap .access .map {
+    width: 88vw;
+    height: 50vh;
+    padding: 20px;
+    padding-top: 0 !important;
+  }
+  #access .access_wrap .access .access_right {
+    width: 80vw;
+    height: 50vh;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  #access .access_wrap .access .access_right .access_text_wrap img {
+    width: 62px !important;
+  }
+  #access .access_wrap .access .access_right .access_text_wrap .caption .caption_en {
+    font-size: 12pt !important;
+  }
+  #access .access_wrap .access .access_right .access_text_wrap .caption .caption_jp {
+    font-size: 21pt !important;
+  }
+  #access .access_wrap .access .access_text_box {
+    width: 40% !important;
+  }
+  #access .access_wrap .access .access_text_box ul {
+    margin-top: 50px !important;
+  }
+  #access .access_wrap .access .access_text_box ul li {
+    font-size: 8pt !important;
+  }
+  #access .access_wrap .access .shop_link_box {
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px !important;
+  }
+  #access .access_wrap .access .shop_link_box a {
+    width: 88vw !important;
+    height: 40px !important;
+  }
+  #access .access_wrap .access .shop_link_box a p {
+    font-size: 8pt !important;
+  }
+}
+/*# sourceMappingURL=access.css.map */

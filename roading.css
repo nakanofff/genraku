@@ -1,0 +1,96 @@
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -10;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -10;
+  }
+}
+
+#roading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #F3EFDD;
+  -webkit-animation: fadeout 0.3s forwards;
+          animation: fadeout 0.3s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+#roading .roading_wrap {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+#roading .roading_wrap p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27pt;
+  margin-bottom: 40px;
+}
+
+#roading .roading_wrap .roading_line {
+  width: 100vw;
+  height: auto;
+}
+
+#roading .roading_wrap .roading_line img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  #roading .roading_wrap .roading_line {
+    height: 8vh !important;
+  }
+  #roading .roading_wrap .roading_line img {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=roading.css.map */

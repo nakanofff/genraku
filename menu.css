@@ -1,0 +1,173 @@
+#news {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#news .news_wrap {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#news .news_wrap .news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#news .news_wrap .news .caption_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#news .news_wrap .news .caption_wrap img {
+  width: 110px;
+  margin-bottom: 18px;
+}
+
+#news .news_wrap .news .caption_wrap .caption {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+#news .news_wrap .news .caption_wrap .caption p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+#news .news_wrap .news .caption_wrap .caption .caption_en {
+  font-size: 20pt;
+}
+
+#news .news_wrap .news .caption_wrap .caption .caption_jp {
+  font-size: 36pt;
+}
+
+#news .news_wrap .news .news_list_wrap {
+  padding-left: 150px;
+}
+
+#news .news_wrap .news .news_list_wrap .news_list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#news .news_wrap .news .news_list_wrap .news_list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid #6A846F;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#news .news_wrap .news .news_list_wrap .news_list ul li .day {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0px;
+}
+
+#news .news_wrap .news .news_list_wrap .news_list ul li .news_text {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 0px;
+  padding-left: 40px;
+}
+
+#news .news_wrap .news .news_list_wrap .news_list ul li:first-child {
+  border-top: 1px solid #6A846F;
+}
+
+@media screen and (max-width: 480px) {
+  #news {
+    margin-top: 10px;
+  }
+  #news .news_wrap {
+    width: 88vw;
+  }
+  #news .news_wrap .news {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  #news .news_wrap .news .caption_wrap {
+    padding-right: 30px;
+  }
+  #news .news_wrap .news .caption_wrap img {
+    width: 62px !important;
+  }
+  #news .news_wrap .news .caption_wrap .caption .caption_en {
+    font-size: 12pt !important;
+  }
+  #news .news_wrap .news .caption_wrap .caption .caption_jp {
+    font-size: 21pt !important;
+  }
+  #news .news_wrap .news .news_list_wrap {
+    padding: 0 !important;
+  }
+  #news .news_wrap .news .news_list_wrap .news_list ul li {
+    width: 88vw !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #news .news_wrap .news .news_list_wrap .news_list ul li .day {
+    font-size: 8px !important;
+  }
+  #news .news_wrap .news .news_list_wrap .news_list ul li .news_text {
+    font-size: 8px;
+    padding-left: 8px;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

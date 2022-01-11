@@ -1,0 +1,166 @@
+#about {
+  width: 100vw;
+  height: 100vh;
+  background-color: #6A846F;
+  position: relative;
+}
+
+#about .about_img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#about .about_img img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about .about_wrap {
+  position: absolute;
+  background-color: #ffffff;
+  width: 40vw;
+  height: 70vh;
+  top: 0;
+  right: 0;
+  margin-top: 108px;
+  margin-right: 108px;
+}
+
+#about .about_wrap .about {
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#about .about_wrap .about .caption_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .about_wrap .about .caption_wrap img {
+  width: 110px;
+  margin-bottom: 18px;
+}
+
+#about .about_wrap .about .caption_wrap .caption {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+#about .about_wrap .about .caption_wrap .caption p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+#about .about_wrap .about .caption_wrap .caption .caption_en {
+  font-size: 20pt;
+}
+
+#about .about_wrap .about .caption_wrap .caption .caption_jp {
+  font-size: 36pt;
+}
+
+#about .about_wrap .about .about_text_wrap {
+  width: 60%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#about .about_wrap .about .about_text_wrap .about_text {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  height: 88%;
+}
+
+#about .about_wrap .about .about_text_wrap .about_text p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  margin: 0px;
+  line-height: 5vw;
+}
+
+@media screen and (max-width: 480px) {
+  #about .about_wrap {
+    background-color: #00000000;
+    width: 80vw !important;
+    height: 90vh !important;
+    margin: 0 !important;
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  #about .about_wrap .about {
+    margin: 0 !important;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #about .about_wrap .about .caption_wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about .about_wrap .about .caption_wrap img {
+    width: 62px !important;
+  }
+  #about .about_wrap .about .caption_wrap .caption p {
+    color: #ffffff;
+  }
+  #about .about_wrap .about .caption_wrap .caption .caption_en {
+    font-size: 12pt !important;
+  }
+  #about .about_wrap .about .caption_wrap .caption .caption_jp {
+    font-size: 21pt !important;
+  }
+  #about .about_wrap .about .about_text_wrap {
+    margin-top: 30px;
+  }
+  #about .about_wrap .about .about_text_wrap .about_text p {
+    color: #ffffff !important;
+    line-height: 40px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

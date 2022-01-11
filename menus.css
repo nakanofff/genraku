@@ -1,0 +1,314 @@
+#menu {
+  width: 100vw;
+  height: 100vh;
+}
+
+#menu .menu_wrap {
+  padding: 50px;
+}
+
+#menu .menu_wrap .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#menu .menu_wrap .menu .caption_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu .menu_wrap .menu .caption_wrap img {
+  width: 110px;
+  margin-bottom: 18px;
+}
+
+#menu .menu_wrap .menu .caption_wrap .caption {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+#menu .menu_wrap .menu .caption_wrap .caption p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .caption_wrap .caption .caption_en {
+  font-size: 20pt;
+}
+
+#menu .menu_wrap .menu .caption_wrap .caption .caption_jp {
+  font-size: 36pt;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content {
+  position: relative;
+  width: 25vw;
+  height: 80vh;
+  margin-left: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content img {
+  width: 100%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_title {
+  margin-bottom: 17px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_title h3 {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_title h4 {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10pt;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_text {
+  margin-bottom: 30px;
+  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_text p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10pt;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_price {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 8px;
+  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_price p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12pt;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_price p .price_unit {
+  font-size: 7pt !important;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_price .cal {
+  font-size: 7pt !important;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_info_wrap {
+  display: none;
+  margin-bottom: 16px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_info_wrap .content_info {
+  border-left: 1px solid #000000;
+  padding-left: 8px;
+  padding-right: 20px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_info_wrap .content_info p {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_info_wrap .content_info .content_info_title {
+  font-size: 8pt;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_info_wrap .content_info .content_info_text {
+  font-size: 6pt;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .contact_open1 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_button .button_text {
+  color: #000000;
+  font-family: ten-mincho, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6pt;
+  margin: 0px;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_button .button_text1 {
+  display: block;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_button .button_text2 {
+  display: none;
+}
+
+#menu .menu_wrap .menu .contents_wrap .contents .content .content_text_wrap .content_button .button_underline {
+  width: 30%;
+  height: 1px;
+  background-color: #000000;
+}
+
+.contact_open1 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.contact_open2 {
+  display: block;
+}
+
+.contact_open3 {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  #menu {
+    height: auto;
+  }
+  #menu .menu_wrap {
+    padding: 20px;
+  }
+  #menu .menu_wrap .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #menu .menu_wrap .menu .caption_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 80%;
+    margin-bottom: 53px;
+  }
+  #menu .menu_wrap .menu .caption_wrap img {
+    width: 62px !important;
+  }
+  #menu .menu_wrap .menu .caption_wrap .caption .caption_en {
+    font-size: 12pt !important;
+  }
+  #menu .menu_wrap .menu .caption_wrap .caption .caption_jp {
+    font-size: 21pt !important;
+  }
+  #menu .menu_wrap .menu .contents_wrap .contents {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #menu .menu_wrap .menu .contents_wrap .contents .content {
+    width: 88vw !important;
+    height: 60vh;
+    margin-left: 0 !important;
+    margin-bottom: 8vh;
+  }
+}
+/*# sourceMappingURL=menus.css.map */
